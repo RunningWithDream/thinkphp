@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:56:"C:\xampp\htdocs\thinkphp/application/view\index\web.html";i:1528844661;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:56:"C:\xampp\htdocs\thinkphp/application/view\index\web.html";i:1528845734;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,20 +21,18 @@
             <a href="#" class="search-btn">搜索</a>
         </div>
     </div>
-
-
     <div class="banner">
         <ul class="clearfix">
-            <li><a href=""><img src="/public/static/image/web//l8.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l1.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l2.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l3.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l4.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l5.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l6.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l7.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l8.jpg" alt=""></a></li>
-            <li><a href=""><img src="/public/static/image/web//l1.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l8.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l1.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l2.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l3.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l4.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l5.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l6.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l7.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l8.jpg" alt=""></a></li>
+            <li><a href=""><img src="/public/static/image/web/l1.jpg" alt=""></a></li>
         </ul>
         <ul>
             <li></li>
@@ -48,6 +46,58 @@
         </ul>
     </div>
 
+    <div class="nav">
+        <ul class="clearfix">
+            <li>
+                <a href="">
+                    <img src="/public/static/image/web/nav0.png" alt="">
+                    <p>分类查询</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/public/static/image/web/nav1.png" alt="">
+                    <p>分类查询</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/public/static/image/web/nav2.png" alt="">
+                    <p>分类查询</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/public/static/image/web/nav3.png" alt="">
+                    <p>分类查询</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/public/static/image/web/nav4.png" alt="">
+                    <p>分类查询</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/public/static/image/web/nav5.png" alt="">
+                    <p>分类查询</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/public/static/image/web/nav6.png" alt="">
+                    <p>分类查询</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="/public/static/image/web/nav7.png" alt="">
+                    <p>分类查询</p>
+                </a>
+            </li>
+        </ul>
+    </div>
 
 </div>
 <script>

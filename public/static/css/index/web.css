@@ -75,8 +75,8 @@
 /*banner-start*/
 .banner {
     width: 100%;
-    position: absolute;
     overflow: hidden;
+    position: relative;
 }
 
 .banner ul:nth-child(1) {
@@ -125,3 +125,35 @@
 }
 
 /*banner-end*/
+/*nav-start*/
+.nav {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nav ul li {
+    width: 25%;
+    float: left;
+}
+
+.nav ul li a {
+    width: 100%;
+    display: block;
+}
+
+.nav ul li a img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav ul li a p {
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+    padding: 6px 0;
+}
+/*nav-end*/

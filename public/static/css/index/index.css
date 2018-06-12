@@ -1,0 +1,61 @@
+*{
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.w {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 230px;
+    height: 230px;
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+.name {
+    color: #3c3c3c;
+    font-weight: bold;
+}
+
+.say {
+    font-size: 25px;
+}
+
+.say-container {
+    font-size: 18px;
+    color: #ccc;
+    padding: 15px 0px;
+}
+
+.position-bottom {
+    position: relative;
+    top: 50px;
+}
+
+.color-container {
+    text-align: center;
+    display: inline-block;
+    width: 145px;
+    height: 120px;
+}
+
+.color-block {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.color-text {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: #3c3c3c;
+    font-size: 25px;
+    font-weight: bold;
+}

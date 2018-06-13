@@ -22,7 +22,8 @@
     margin: 0 auto;
     height: 40px;
     position: relative;
-    background-color: #2dc49b;
+    /*background-color: #2dc49b;*/
+    background: rgba(201,21,35,0);
 }
 
 .container .header .header-box .icon_logo {

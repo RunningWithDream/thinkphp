@@ -1,6 +1,7 @@
 window.onload = function () {
     search();
     banner();
+    downTime();
 }
 
 /*头部搜索功能*/
@@ -208,4 +209,44 @@ function banner(){
             setTranslateX(-index*width);
         },3000);
     });
+}
+
+/*倒计时*/
+function downTime(){
+    /*
+    * 1.得到需要倒计时的时间  这是固定定死的  5 小时 04 59 59
+    * 2.每隔一秒来  计算  当前的  时间  格式
+    * 3.渲染在页面当中
+    * */
+
+    /*倒计时的时间*/
+    var time = 3 * 60 * 60;
+
+    /*获取dom元素*/
+    var skTime = document.querySelector('.sk_time');
+    /*所有的span*/
+    var spans = skTime.querySelectorAll('span');
+
+    /*定时器*/
+    var timer = setInterval(function(){
+        time -- ;
+        if(time<0){
+            clearInterval(timer);
+            return false;
+        }
+        /*格式化时间  得到  时  分  秒*/
+        var h = Math.floor(time/3600);
+        var m = Math.floor((time%3600)/60);
+        var s = time%60;
+        /*渲染*/
+        spans[0].innerHTML = Math.floor(h/10);
+        spans[1].innerHTML = h%10;
+
+        spans[3].innerHTML = Math.floor(m/10);
+        spans[4].innerHTML = m%10;
+
+        spans[6].innerHTML = Math.floor(s/10);
+        spans[7].innerHTML = s%10;
+    },1000);
+
 }

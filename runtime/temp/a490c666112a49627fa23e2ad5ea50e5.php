@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:56:"C:\xampp\htdocs\thinkphp/application/view\index\web.html";i:1528851948;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:56:"C:\xampp\htdocs\thinkphp/application/view\index\web.html";i:1528856845;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,30 +102,76 @@
     <div class="product">
         <section class="product-box">
             <div class="product-title no_border">
-                <h3>掌上超市</h3>
+                <div class="f_left">
+                    <span class="sk_icon"></span>
+                    <span class="sk_name">掌上秒杀</span>
+                    <div class="sk_time">
+                        <span>0</span>
+                        <span>1</span>
+                        <span>:</span>
+                        <span>1</span>
+                        <span>4</span>
+                        <span>:</span>
+                        <span>3</span>
+                        <span>9</span>
+                    </div>
+                </div>
+                <div class="f_right">
+                    <a href="#" class="m_r10">更多&gt;</a>
+                </div>
             </div>
-            <div class="product-con"></div>
+            <div class="product-con">
+                <ul class="sk_product clearfix">
+                    <li>
+                        <a href="#"><img src="/public/static/image/web/detail01.jpg" alt=""></a>
+                        <p>¥10.00</p>
+                        <p>¥100.00</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/public/static/image/web/detail02.jpg" alt=""></a>
+                        <p>¥10.00</p>
+                        <p>¥100.00</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/public/static/image/web/detail01.jpg" alt=""></a>
+                        <p>¥10.00</p>
+                        <p>¥100.00</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section class="product-box">
             <div class="product-title">
                 <h3>掌上超市</h3>
             </div>
-            <div class="product-con"></div>
+            <div class="product-con clearfix">
+                <a href="#" class="f_left w_50 b_right"><img src="/public/static/image/web/cp1.jpg" alt=""></a>
+                <a href="#" class="f_right w_50 b_bottom"><img src="/public/static/image/web/cp2.jpg" alt=""></a>
+                <a href="#" class="f_right w_50"><img src="/public/static/image/web/cp3.jpg" alt=""></a>
+            </div>
         </section>
 
         <section class="product-box">
             <div class="product-title">
                 <h3>掌上超市</h3>
             </div>
-            <div class="product-con"></div>
+            <div class="product-con clearfix">
+                <a href="#" class="f_right w_50 b_left"><img src="/public/static/image/web/cp4.jpg" alt=""></a>
+                <a href="#" class="f_left w_50 b_bottom"><img src="/public/static/image/web/cp5.jpg" alt=""></a>
+                <a href="#" class="f_left w_50"><img src="/public/static/image/web/cp6.jpg" alt=""></a>
+            </div>
         </section>
 
         <section class="product-box">
             <div class="product-title">
                 <h3>掌上超市</h3>
             </div>
-            <div class="product-con"></div>
+            <div class="product-con clearfix">
+                <a href="#" class="f_left w_50 b_right"><img src="/public/static/image/web/cp1.jpg" alt=""></a>
+                <a href="#" class="f_right w_50 b_bottom"><img src="/public/static/image/web/cp2.jpg" alt=""></a>
+                <a href="#" class="f_right w_50"><img src="/public/static/image/web/cp3.jpg" alt=""></a>
+            </div>
         </section>
 
     </div>

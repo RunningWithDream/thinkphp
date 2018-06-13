@@ -196,5 +196,94 @@
 .product .product-box .product-con{
     min-height: 100px;
 }
+/*掌上秒杀*/
+.sk_icon{
+    background: url("/public/static/image/web/seckill-icon.png") no-repeat;
+    background-size: 16px 20px;/*在一倍范围内都没有什么影响*/
+    width: 16px;
+    height: 20px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.sk_name{
+    font-size: 15px;
+    color: #d8505c;
+    float: left;
+    margin-left: 10px;
+}
+.sk_time{
+    float: left;
+    margin-left: 10px;
+}
+.sk_time span{
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    background: #333;
+    float: left;
+    margin-top: 8px;
+    margin-right: 3px;
+    color: #fff;
+}
+.sk_time span:nth-child(3n){
+    background: #fff;
+    color: #333;
+    width: 3px;
+}
+.sk_product{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+}
+.sk_product li{
+    width: 33.333%;
+    float: left;
+}
+.sk_product li a{
+    width: 100%;
+    display: block;
+    border-right: 1px solid #e0e0e0;
+}
+.sk_product li:last-child a{
+    border-right: none;
+}
+.sk_product li a img{
+    width: 64%;
+    margin: 0 auto;
+    display: block;
+}
+/*
+nth-of-type  选择同类型的第几个元素
+first-of-type 选择同类型的第一个元素
+last-of-type 选择同类型的最后一个元素
+*/
+.sk_product li p:nth-of-type(1){
+    color: #d8505c;
+    padding-top: 5px;
+}
+.sk_product li p:nth-of-type(2){
+    text-decoration: line-through;/*删除线*/
+    padding-top: 5px;
+}
 
+/*商品图片*/
+.w_50{
+    width: 50%;
+    display: block;
+}
+.w_50 img{
+    width: 100%;
+    display: block;
+}
+.b_right{
+    border-right: 1px solid #e0e0e0;
+}
+.b_left{
+    border-left: 1px solid #e0e0e0;
+}
+.b_bottom{
+    border-bottom: 1px solid #e0e0e0;
+}
 /*product-end*/

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:56:"C:\xampp\htdocs\thinkphp/application/view\index\web.html";i:1528845734;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:56:"C:\xampp\htdocs\thinkphp/application/view\index\web.html";i:1528851948;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +45,6 @@
             <li></li>
         </ul>
     </div>
-
     <div class="nav">
         <ul class="clearfix">
             <li>
@@ -97,6 +96,38 @@
                 </a>
             </li>
         </ul>
+    </div>
+
+
+    <div class="product">
+        <section class="product-box">
+            <div class="product-title no_border">
+                <h3>掌上超市</h3>
+            </div>
+            <div class="product-con"></div>
+        </section>
+
+        <section class="product-box">
+            <div class="product-title">
+                <h3>掌上超市</h3>
+            </div>
+            <div class="product-con"></div>
+        </section>
+
+        <section class="product-box">
+            <div class="product-title">
+                <h3>掌上超市</h3>
+            </div>
+            <div class="product-con"></div>
+        </section>
+
+        <section class="product-box">
+            <div class="product-title">
+                <h3>掌上超市</h3>
+            </div>
+            <div class="product-con"></div>
+        </section>
+
     </div>
 
 </div>

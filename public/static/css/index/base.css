@@ -74,7 +74,7 @@ input,textarea{
     background-size: 200px 200px;
 }
 /*顶部通栏*/
-.jd_topBar{
+.topBar{
     height: 45px;
     background: url("/public/static/image/web/sprites.png") repeat-x;
     background-size: 1px 44px;
@@ -82,7 +82,7 @@ input,textarea{
     position: absolute;
     width: 100%;
 }
-.jd_topBar [class^="icon_"]{
+.topBar [class^="icon_"]{
     width: 40px;
     height: 44px;
     position: absolute;
@@ -93,26 +93,27 @@ input,textarea{
     background-clip: content-box;/*显示背景 从内容开始显示*/
 }
 /*按钮大小不变  但是显示的背景区域 要变小*/
-.jd_topBar .icon_back{
+.topBar .icon_back{
     left: 0;
     background-position: -20px 0;
 }
-.jd_topBar .icon_menu{
+.topBar .icon_menu{
     right: 0;
     background-position: -60px 0;
 }
-.jd_topBar form{
+.topBar form{
     width: 100%;
     padding: 0 40px;
 }
-.jd_topBar form input{
+.topBar form input{
     width: 100%;
     height: 30px;
     border: 1px solid #e0e0e0;
     border-radius: 2px;
     margin-top: 7px;
+    padding-left: 5px;
 }
-.jd_topBar h3{
+.topBar h3{
     text-align: center;
     line-height: 44px;
     font-weight: normal;

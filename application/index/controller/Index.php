@@ -43,6 +43,11 @@ class Index extends Controller
         return $this->fetch();
     }
 
+    public function cart()
+    {
+        return $this->fetch();
+    }
+
     public function miss()
     {
         return '你所访问的页面不存在';

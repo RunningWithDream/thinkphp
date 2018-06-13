@@ -19,11 +19,14 @@ return [
         ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
         ':name' => ['index/hello', ['method' => 'post']],
     ],
-    '/'  => ['index/index/jquery',['method' => 'get']],
+    '/'  => ['index/index/cart',['method' => 'get']],
 
-    'index/index/index'  => ['index/index/index',['method' => 'get']],
     'index/index/web'  => ['index/index/web',['method' => 'get']],
     'index/index/category'  => ['index/index/category',['method' => 'get']],
+    'index/index/cart'  => ['index/index/cart',['method' => 'get']],
+
+
+    'index/index/index'  => ['index/index/index',['method' => 'get']],
     'index/index/color'  => ['index/index/color',['method' => 'get']],
     '[color]'  => [
         '/'=> ['index/index/color',['method' => 'get']],

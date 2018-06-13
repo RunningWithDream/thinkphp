@@ -49,3 +49,75 @@ html,body{
     font-size: 16px;
 }
 
+/*分类主体*/
+.category{
+    height: 100%;
+    padding-top: 45px;
+    overflow: hidden;
+}
+
+.category-left{
+    float: left;
+    width: 90px;
+    overflow: hidden;
+}
+
+.category-left ul li{
+    height: 50px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #f3f4f6;
+    text-align: center;
+    line-height: 50px;
+}
+
+.category-left ul li a{
+    display: block;
+}
+
+.category-left ul li.now{
+    border-right: none;
+    background: #fff;
+}
+
+.category-left ul li.now a{
+    color: #d8505c;
+}
+
+/*右侧内容*/
+.category-right{
+    overflow: hidden;
+    height: 100%;
+}
+
+.category-right .banner{
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+.category-right .banner img{
+    width: 100%;
+    display: block;
+}
+.category-right .product_box{
+    padding: 0 10px;
+}
+.category-right .product_box h3{
+    font-size: 12px;
+    line-height: 30px;
+}
+.category-right .product_box ul li{
+    float: left;
+    width: 33.333%;
+}
+.category-right .product_box ul li img{
+    width: 62px;
+    height: 62px;
+    display: block;
+    margin:  0 auto;
+}
+.category-right .product_box ul li p{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}

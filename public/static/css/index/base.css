@@ -76,7 +76,7 @@ input,textarea{
 /*顶部通栏*/
 .topBar{
     height: 45px;
-    background: url("/public/static/image/web/sprites.png") repeat-x;
+    background: url("/public/static/image/web/header-bg.png") repeat-x;
     background-size: 1px 44px;
     border-bottom: 1px solid #e0e0e0;
     position: absolute;
